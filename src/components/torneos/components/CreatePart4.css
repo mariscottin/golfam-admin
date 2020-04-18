@@ -1,0 +1,43 @@
+.fecha-inscripciones__container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.fecha-inscripciones__container .form-group{
+    width: 40%;
+}
+
+.resumen-final__container{
+    padding-top: 2rem !important;
+    padding-bottom: 1rem !important;
+    margin-bottom: 5px !important;
+}
+
+.resumen-final__categorias-container{
+    margin-bottom: 16px
+}
+
+
+.resumen-final__categorias{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding-left: 6px;
+}
+
+.resumen-final__categorias .resumen-final__categoria{
+    margin-left: 6px;
+}
+
+.resumen-final__subtitle{
+    font-weight: bold;
+}
+
+@media(max-width: 767px) {
+    .fecha-inscripciones__container .form-group{
+        width: 100%;
+    }
+}

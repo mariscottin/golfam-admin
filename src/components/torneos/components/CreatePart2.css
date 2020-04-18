@@ -1,0 +1,19 @@
+
+.round-dates__container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.round-dates__item{
+    width: 40%;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+@media(max-width: 767px) {
+    .round-dates__item{
+        width: 100%;
+    }
+}

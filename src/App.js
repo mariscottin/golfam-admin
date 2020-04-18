@@ -1,25 +1,29 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
+import Header from './components/shared/Navbar/Header';
+import Sidebar from './components/shared/Navbar/Sidebar';
+import NewTournament from './components/torneos/pages/NewTournament';
+import CreateTournament from './components/torneos/pages/CreateTournament';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div>
+        <Header />
+        <Sidebar />
+        <Switch>
+          
+          <Route path="/torneos/crear" exact>
+            <NewTournament />
+          </Route>
+          <Route path="/torneos/crear/nuevo" exact>
+            <CreateTournament />
+          </Route>
+         
+        </Switch>
+      </div>
+
+    </Router>
   );
 }
 

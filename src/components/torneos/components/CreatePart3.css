@@ -1,0 +1,73 @@
+.salidas-por-hoyo{
+    width: 95%;
+    margin: auto;
+}
+
+.tee-from-other-hole{
+    width: 65px;
+}
+
+.tee-times{
+    width: 95%;
+    margin: auto;
+}
+
+.teeshot-times__container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.teeshot-times__container .form-group{
+    width: 31%;
+    padding: 5px;
+}
+
+.diferenciales{
+    width: 95%;
+    margin: auto;
+}
+
+.diferenciales__container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 60%;
+}
+
+.diferenciales__hcp-range{
+    display: flex; 
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 130px;
+}
+
+.diferenciales__hcp-range .form-group{
+    width: 100%;
+    margin: 0px 2px 15px 2px;
+}
+
+.green-fees{
+    width: 95%;
+    margin: auto;
+}
+
+.green-fees__container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.green-fees__container .form-group{
+    width: 45%;
+    margin-right: 20px;
+}
+
+@media(max-width: 767px){
+    .teeshot-times__container .form-group{
+        width: 100%;
+    }
+}

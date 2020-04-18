@@ -1,0 +1,41 @@
+.four-players-time{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.four-players-time label{
+    margin-right: 6px;
+}
+
+
+.create-tournament__categorias-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.create-tournament__categorias-col{
+    padding-bottom: 12px;
+}
+
+.categories-label{
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.sex-checkbox{
+    text-transform: uppercase;
+}
+
+.categories-checkboxes{
+    padding-left: 4px;
+}
+
+.create-new-category{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: -6px;
+}

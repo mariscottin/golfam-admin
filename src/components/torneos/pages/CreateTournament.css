@@ -1,0 +1,61 @@
+.breadcrumb{
+    width: 70%;
+    margin: auto;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.breadcrumb-current{
+   font-weight: bold;
+   color: #5a945a !important;
+}
+
+.create-tournament__form-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 70%;
+    margin: auto;
+}
+
+
+.prev-next__container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 20px;
+}
+
+.prev-next__arrow{
+    color: #007bff;
+}
+
+.prev-next__arrow:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.submit-createTournament-btn{
+    text-align: center;
+}
+
+.submit-createTournament-btn .btn{
+    margin: 0 4px;
+}
+
+@media(max-width: 767px) {
+    .create-tournament__form-container{
+        width: 90%;
+    }
+
+    .breadcrumb{
+        width: 90%;
+        font-size: 14px;
+    }
+
+    .breadcrumb-item.active{
+        padding-left: 2px !important;
+    }
+
+}

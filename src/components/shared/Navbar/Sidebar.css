@@ -1,0 +1,104 @@
+.sidenav {
+  height: 100%;
+  width: 180px;
+  position: fixed;
+  z-index: 1;
+  top: 66px;
+  left: 0;
+  background-color: #343A40;
+  overflow-x: hidden;
+  padding-top: 10px;
+  transition: all 0.15s;
+}
+
+
+.sidenav-toggler-container {
+  width: 90%;
+  text-align: right;
+  margin: 0;
+}
+
+.sidenav-toggler-container {
+  color: #818181;
+  padding-bottom: 10px;
+}
+
+.sidenav-toggler-container .sidenav-toggler:hover {
+  cursor: pointer;
+}
+
+.sidenav-full__container{
+  border-bottom: 1px solid #818181c0;
+}
+
+.sidenav-item__container {
+  display: flex !important;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 12px 8px 12px 9px;
+  text-decoration: none;
+  font-size: 16px;
+  color: #818181;
+  display: block;
+  
+  border-bottom: 1px solid #818181c0; /*BORRAR DESOUES DE TERMINAR CON TODOS LOS NAVS*/
+}
+
+.sidenav-item__container:hover {
+  color: #f1f1f1;
+  cursor: pointer;
+}
+
+.justify-start {
+  margin-right: auto;
+}
+
+.justify-closed{
+  margin-left: 18px;
+}
+
+.first-item {
+  border-top: 1px solid #818181c0;
+}
+
+.sidenav-item__text{
+  margin-left: 5px;
+}
+
+.closed {
+  width: 80px;
+  text-align: center;
+}
+
+.active{
+  color: #f1f1f1;
+}
+
+.sidenav-list{
+  padding: 2px 8px 2px 10px;
+  background-color: rgb(62, 70, 78);
+}
+
+.sidenav-list ul {
+  list-style: none;
+  color: #f1f1f1;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 15px;
+  font-size: 15px;
+}
+
+.sidenav-list ul li {
+  padding-top: 15px;
+}
+
+.sidenav-list li a{
+  color: #f1f1f1;
+}
+
+.sidenav-list ul li:hover{
+  text-decoration: underline;
+  cursor: pointer;
+  color: #f1f1f1;
+}
